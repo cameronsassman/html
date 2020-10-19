@@ -1,0 +1,58 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.parallax1 {
+  /* The image used */
+  background-image: url("new.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h3 {
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+.about {
+  height: 100%;
+  background-color: whitesmoke;
+  font-size: 36px;
+  padding: 50px 80px;
+  text-align: justify;
+  align-content: bottom;
+}
+.about p {
+  font: 15px "Lato", sans-serif;
+  color: #777;
+  font-size: 25px;
+}
+.parallax2 {
+  /* The image used */
+  background-image: url("funn.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
